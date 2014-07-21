@@ -4,7 +4,7 @@
 /* ------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------ */
 
-#header #navigation .select-menu { display: none }
+#header #navigation .select-menu { display: none; font-family: Helvetica Neue; }
 
 #header #navigation ul {
     float: right;
@@ -13,10 +13,23 @@
     margin-top:0px;
 }
 
+#header #navigation a
+{
+	font-family: Helvetica Neue;
+}
+
+#header #navigation
+{
+	width:300px;
+	margin-top:20px;
+	font-family: Helvetica Neue;
+}
+
     #header #navigation ul li {
         display: block;
         float: left;
         position: relative;
+		font-family: Helvetica Neue;
     }
 
         #header #navigation ul li a {
@@ -29,11 +42,13 @@
             border-bottom: 3px solid transparent;
             font-size: 13px;
             color: #666666;
+			font-family: Helvetica Neue;
         }
 
         #header #navigation ul li a:hover {
             color: #333333;
             border-bottom: 3px solid #333333;
+			font-family: Helvetica Neue;
         }
 
 /* Active Status ---------------------------------------------------- */
@@ -50,12 +65,27 @@
     color: #289dcc;
     font-weight: bold;
     border-bottom: 3px solid #289dcc;
+	font-family: Helvetica Neue;
 }
 
 /* Sub-menu ---------------------------------------------------- */
 #header #navigation .sub-menu{
 	top: 87px;
 	left: 15px;
+	margin-top:70px;
+	font-family: Helvetica Neue;
+}
+
+#header #navigation .sub-menu li{
+    border: none;
+	color: #289dcc;
+	font-family: Helvetica Neue;
+}
+
+#header #navigation .sub-menu li a{
+	color: #289dcc;
+	width:300px;
+	font-family: Helvetica Neue;
 }
 
 @media only screen and (min-width: 960px) {
@@ -76,6 +106,8 @@
 		height: auto !important;
 	}
 }
+
+
 
 /* ------------------------------------------------------------------------ */    
 /* ------------------------------------------------------------------------ */

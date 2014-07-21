@@ -8,6 +8,7 @@
 <!-- Basic Page Needs 
 ========================================================= -->
 <meta charset="<?php bloginfo('charset'); ?>">
+
 <title><?php bloginfo('name'); ?> <?php wp_title(' - ', true, 'left'); ?></title>
 
 <!--[if lt IE 9]>
@@ -38,9 +39,9 @@
 
 <?php get_template_part( 'framework/inc/googlefonts'); ?>
 
-<?php wp_head(); ?>
 
-</head>
+
+<?php wp_head(); ?><input name="signbut" type="button" value="Sign Up"/>&nbsp;&nbsp;&nbsp;&nbsp;<input name="loginbut" type="button" value="Log In" /></head>
 
 <body <?php body_class(); ?>>
 
@@ -169,4 +170,4 @@
 	}
 	
 	?>
-        <img id="header-bg-img" src="http://www.bluecloudaustralia.com.au/wp-content/themes/BlueCloud_2012/images/watermark.jpg" />
+        <!--<img id="header-bg-img" src="http://www.bluecloudaustralia.com.au/wp-content/themes/BlueCloud_2012/images/watermark.jpg" />-->
